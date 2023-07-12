@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>payment form</title>
+</head>
+<body>
+    <div class="container">
+    <h1 class="b1">
+        Payment form
+    </h1>
+    <hr>
+        <h1>
+            Contact Information
+        </h1>
+        <hr>
+        <form action="backend.php">
+            <p class="box1">
+                Name: <input type="text" name="name" placeholder="Enter your first name" required>
+            <p></p>
+            <p class="box1">
+                Last Name: <input type="text" name="name" placeholder="Enter your last name"  required>
+            </p>
+            <p class="box1">
+                Email ID: <input type="mail" name="name" placeholder="Enter your mail"  required>
+            </p>
+            <p class="box1">
+                Address: <textarea name="address" id="" cols="70" rows="10" placeholder="Enter your address "  required></textarea>
+            </p>
+            <p class="box1">
+               Gender:  
+               Male<input type="radio" name="gender" value="male">
+               Female<input type="radio" name="gender" value="female">
+            </p>
+            <p>
+                Pincode: <input type="number" name="pincod">
+            </p>
+            <hr>
+            <h1> Payment Details </h1>
+            <p class="box1">
+                Payment method: 
+                    <select name="box " id="box">
+                     <option value="none" default > select one </option>
+                     <option value="Paytm"> Paytm </option>
+                     <option value="visa"> Visa </option>
+                     <option value="Master Card"> Master Card </option>
+                     <option value="Phone Pe"> Phone pe </option>
+                    </select>
+                </p>
+                <p>
+                    CVV: <input type="password" name="cvv" id="cvv" placeholder="Enter 3 digit cvv">
+                </p>
+                <p>
+                    Expiration date: <input type="date" name="date">
+                </p>
+            <p>
+                <button class="box2">
+                    Pay now
+                </button>
+            </p>
+        </form>
+    </div>
+
+</body>
+</html>
