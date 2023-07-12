@@ -1,0 +1,38 @@
+*{
+    box-sizing: border-box;
+}
+.b1{
+    text-align: center;
+}
+body
+{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 15px 200px;
+    padding: 10px;
+}
+.container{
+    background-color: lightgray;
+    padding: 15px;
+    border-radius: 5px;
+}
+input[type="text"],
+input[type="mail"],
+input[type="number"],
+input[type="date"],
+input[type="password"],
+select,
+textarea
+{
+    width: 100%;
+    padding: 10px;
+}
+.box2{
+    margin-left: 350px;
+    width: 400px;
+    height: 45px;
+    border-radius: 10px;
+}
+.box2:hover{
+    background-color: aqua;
+}
+
